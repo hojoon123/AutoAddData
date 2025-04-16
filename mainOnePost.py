@@ -15,305 +15,327 @@ def main():
   # 데이터 추가
   response = Post.add_post(
       user_id="rhzn5510",
-      title="Christopher(크리스토퍼) - Bad[가사/해석/발음/의역]",
-      markdown='''# Christopher(크리스토퍼) - Bad
-      
-  [Verse 1]
-  I don't wanna be another him, that shit is over  
-  아이 돈 워너 비 어나더 힘, 댓 쉿 이즈 오버  
-  나는 또다른 너의 남자가 되고싶진 않아, 그런건 이제 끝이야  
+      title = "Love U Like That (난 그런 너를 사랑해) [가사/해석/발음/의역]",
+        markdown='''# Lauv - Love U Like That
 
-  Finally you found yourself a friend, and you run him over  
-  파이널리 유 파운드 유어셀프 어 프렌드, 앤드 유 런 힘 오버  
-  이제야 넌 친구라고 하며 그 남자를 짓밟아버리지  
+## [Verse 1]
+Drunk in the rain  
+드렁크 인 더 레인  
+취한 채로 빗속을 거닐어  
 
-  Ever since the start, I saw the end around the corner  
-  에버 신스 더 스타트, 아이 소우 디 엔드 어라운드 더 코너  
-  시작부터 난 코앞에 다가온 끝을 봤어  
+Really old habits, really old baggage  
+릴리 올드 해빗츠, 릴리 올드 배기지  
+오래된 버릇, 오래된 짐들과 함께  
 
-  'Cause I know you so well  
-  커즈 아이 노우 유 쏘 웰  
-  난 널 너무 잘 알거든  
+Just walked away into your madness, onto your mattress  
+저스트 워크드 어웨이 인투 유어 매드니스, 온투 유어 매트리스  
+난 지금 너라는 소용돌이에 갇혀버렸어, 어느새 네 침대 위야  
 
-  [Chorus]
-  So predictable  
-  쏘 프레딕터블  
-  너무 예상가능해  
+Goddamn okay  
+갓댐 오케이  
+젠장, 이제 어쩌지  
 
-  You're an animal  
-  유어 언 애니멀  
-  너는 동물이야  
+You’re so attractive, how did that happen?  
+유어 쏘 어트랙티브, 하우 디드 댓 해픈?  
+넌 너무 매력적이야, 어쩜 이래?  
 
-  I can't let you go  
-  아이 캔트 렛 유 고  
-  너를 보낼 수는 없어  
+And you’re kissing on my neck  
+앤드 유어 키싱 온 마이 넥  
+네가 내 목에 키스를 하면  
 
-  You're so good at being bad, you know  
-  유어 쏘 굿 앳 빙 배드, 유 노우  
-  너는 나쁜 사람이기를 너무 잘해, 너도 알다시피  
+I’m like ohhhh  
+아임 라이크 오~~~  
+감탄사가 절로 나와  
 
-  So predictable  
-  쏘 프레딕터블  
-  너무 예상가능해  
+Got your hands up on my chest  
+갓 유어 핸즈 업 온 마이 체스트  
+네 손이 점점 위로 올라오면  
 
-  You're an animal  
-  유어 언 애니멀  
-  너는 동물이야  
+I’m like ohhh  
+아임 라이크 오~~~  
+내 기분도 하늘 위로 날아가  
 
-  I can't let you go  
-  아이 캔트 렛 유 고  
-  너를 보낼 수는 없어  
+Kiss me til there’s nothing left  
+키스 미 틸 데얼즈 낫띵 레프트  
+내가 녹아 없어질 때까지 키스해 줘  
 
-  You're so good at being bad (Uh)  
-  유어 쏘 굿 앳 빙 배드 (어)  
-  너는 나쁜 사람이기를 너무 잘해, 너도 알다시피  
+Oh my god  
+오 마이 갓  
+오 마이 갓  
 
-  [Post-Chorus]
-  My baby's bad, you know  
-  마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Oh my god  
+오 마이 갓  
+오 마이 갓  
 
-  My baby's bad, you know  
-  마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+## [Chorus]
+You could really tear apart but  
+유 쿳 릴리 테어 어파트 벗  
+네가 내 가슴을 찢어 놓을 수도 있겠지만  
 
-  My baby, my, my, my baby's bad, you know  
-  마이 베이비, 마이, 마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
 
-  My, my baby's bad, you know  
-  마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Everything you do just turns me on  
+에브리띵 유 두 저스트 턴즈 미 온  
+네가 하는 모든 행동들이 날 끌어당겨  
 
-  My, my baby's bad, you know  
-  마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
 
-  My baby, my, my, my baby's bad, you know  
-  마이 베이비, 마이, 마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Body on my mind like all night long  
+바디 온 마이 마인드 라이크 올 나잇 롱  
+밤새도록 네 생각만 해  
 
-  [Verse 2]
-  You know I'm not gonna leave your side, and I can't deny it  
-  유 노우 아임 낫 거너 리브 유어 사이드, 앤드 아이 캔트 디나이 잇  
-  내가 너의 곁을 떠나지 않을거라는걸 너도 알잖아, 그리고 나는 그걸 부정할 수 없어  
+6 o’clock in the morning babe  
+식스 어클락 인 더 모닝 베이브  
+새벽 6시가 될 때까지 멈출 수가 없어  
 
-  Tried to play it cool but I can't hide my true desire  
-  트라이드 투 플레이 잇 쿨 벗 아이 캔트 하이드 마이 트루 디자이어  
-  쿨한척 하려 했는데 내 진실된 욕망을 숨길수가 없어  
+Want you more than yesterday  
+원트 유 모어 댄 예스터데이  
+시간이 갈수록 널 더 원하게 돼  
 
-  'Cause I can see the dirty in your eyes, my favourite liar  
-  커즈 아이 캔 씨 더 더티 인 유어 아이즈, 마이 페이보릿 라이어  
-  너의 눈에 비치는 더러움을 볼 수 있으니까, 넌 내가 제일 좋아하는 거짓말쟁이야  
+Used to judge myself now I don’t care cause  
+유즈드 투 저지 마이셀프 나우 아이 돈 케어 커즈  
+난 항상 내 스스로를 괴롭혔는데 이젠 그렇지 않아  
 
-  And I know you so well, well, well, well  
-  앤드 아이 노우 유 쏘 웰, 웰, 웰, 웰  
-  그리고 나는 너를 너무 잘 알지  
+## [Verse 2]
+Hey  
+헤이  
+있잖아  
 
-  [Chorus]
-  So predictable  
-  쏘 프레딕터블  
-  너무 예상가능해  
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
 
-  You're an animal  
-  유어 언 애니멀  
-  너는 동물이야  
+Everything you do just turns me on  
+에브리띵 유 두 저스트 턴즈 미 온  
+네가 하는 모든 행동들이 날 끌어당겨  
 
-  I can't let you go  
-  아이 캔트 렛 유 고  
-  너를 보낼 수는 없어  
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
 
-  You're so good at being bad, you know  
-  유어 쏘 굿 앳 빙 배드, 유 노우  
-  너는 나쁜 사람이기를 너무 잘해, 너도 알다시피  
+Body on my mind like all night long  
+바디 온 마이 마인드 라이크 올 나잇 롱  
+밤새도록 네 생각만 해  
 
-  So predictable  
-  쏘 프레딕터블  
-  너무 예상가능해  
+6 o’clock in the morning babe  
+식스 어클락 인 더 모닝 베이브  
+새벽 6시가 될 때까지 멈출 수가 없어  
 
-  You're an animal  
-  유어 언 애니멀  
-  너는 동물이야  
+Want you more than yesterday  
+원트 유 모어 댄 예스터데이  
+시간이 갈수록 널 더 원하게 돼  
 
-  I can't let you go  
-  아이 캔트 렛 유 고  
-  너를 보낼 수는 없어  
+Used to judge myself now I don’t care cause  
+유즈드 투 저지 마이셀프 나우 아이 돈 케어 커즈  
+난 항상 내 스스로를 괴롭혔는데 이젠 그렇지 않아  
 
-  You're so good at being bad (Uh)  
-  유어 쏘 굿 앳 빙 배드 (어)  
-  너는 나쁜 사람이기를 너무 잘해, 너도 알다시피  
+I’m wide awake  
+아임 와이드 어웨이크  
+잠이 오질 않아  
 
-  [Post-Chorus]
-  My baby's bad, you know  
-  마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+I don’t need coffee, I know you want me  
+아이 돈 니드 커피, 아이 노우 유 원트 미  
+커피는 필요 없어, 네가 날 원하니까  
 
-  My baby's bad, you know  
-  마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+That’s the champagne  
+댓츠 더 샴페인  
+이게 그 샴페인이야  
 
-  My baby, my, my, my baby's bad, you know  
-  마이 베이비, 마이, 마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Sipping it slowly  
+시핑 잇 슬로울리  
+천천히 한 모금씩 마시며  
 
-  My, my baby's bad, you know  
-  마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Getting to know you  
+겟팅 투 노우 유  
+널 알아가면서  
 
-  My, my baby's bad, you know  
-  마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+And me the same  
+앤드 미 더 세임  
+나 자신도 알아 갔지  
 
-  My baby, my, my, my baby's bad, you know  
-  마이 베이비, 마이, 마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+You’re so attractive, how did that happen?  
+유어 쏘 어트랙티브, 하우 디드 댓 해픈?  
+넌 너무 매력적이야, 어쩜 이래?  
 
-  [Bridge]
-  I can see the way you look at me, waiting to attack  
-  아이 캔 씨 더 웨이 유 룩 앳 미, 웨이팅 투 어택  
-  네가 나를 보는 방식을 알아, 공격하려고 기다리고 있잖아  
+And you’re kissing on my neck  
+앤드 유어 키싱 온 마이 넥  
+네가 내 목에 키스를 하면  
 
-  You are on your worst behaviour, I want it just like that  
-  유 아 온 유어 워스트 비헤이비어, 아이 원트 잇 저스트 라이크 댓  
-  너는 최악의 행동을 하려하고, 난 그냥 그런걸 원해  
+I’m like ohhhh  
+아임 라이크 오~~~  
+감탄사가 절로 나와  
 
-  I can see the way you look at me, waiting to attack  
-  아이 캔 씨 더 웨이 유 룩 앳 미, 웨이팅 투 어택  
-  네가 나를 보는 방식을 알아, 공격하려고 기다리고 있잖아  
+Got your hands up on my chest  
+갓 유어 핸즈 업 온 마이 체스트  
+네 손이 점점 위로 올라오면  
 
-  You are on your worst behaviour, I want it just like that (Uh)  
-  유 아 온 유어 워스트 비헤이비어, 아이 원트 잇 저스트 라이크 댓 (어)  
-  너는 최악의 행동을 하려하고, 난 그냥 그런걸 원해  
+I’m like ohhh  
+아임 라이크 오~~~  
+내 기분도 하늘 위로 날아가  
 
-  [Post-Chorus]
-  My baby's bad, you know  
-  마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Kiss me til there’s nothing left  
+키스 미 틸 데얼즈 낫띵 레프트  
+내가 녹아 없어질 때까지 키스해 줘  
 
-  My baby's bad, you know  
-  마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Oh my god  
+오 마이 갓  
+오 마이 갓  
 
-  My baby, my, my, my baby's bad, you know  
-  마이 베이비, 마이, 마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Oh my god  
+오 마이 갓  
+오 마이 갓  
 
-  My, my baby's bad, you know  
-  마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+## [Chorus]
+You could really tear apart but  
+유 쿳 릴리 테어 어파트 벗  
+네가 내 가슴을 찢어 놓을 수도 있겠지만  
 
-  My, my baby's bad, you know  
-  마이, 마이 베이비즈 배드, 유 노우  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
 
-  My baby, my, my, my baby's bad, you know (Uh)  
-  마이 베이비, 마이, 마이, 마이 베이비즈 배드, 유 노우 (어)  
-  내 사랑은 나쁜사람이야, 너도 알잖아  
+Everything you do just turns me on  
+에브리띵 유 두 저스트 턴즈 미 온  
+네가 하는 모든 행동들이 날 끌어당겨  
 
-  [Chorus]
-  So predictable (So predictable)  
-  쏘 프레딕터블 (쏘 프레딕터블)  
-  너무 예상가능해  
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
 
-  You're an animal (You're an animal)  
-  유어 언 애니멀 (유어 언 애니멀)  
-  너는 동물이야  
+Body on my mind like all night long  
+바디 온 마이 마인드 라이크 올 나잇 롱  
+밤새도록 네 생각만 해  
 
-  I can't let you go  
-  아이 캔트 렛 유 고  
-  너를 보낼 수는 없어  
+6 o’clock in the morning babe  
+식스 어클락 인 더 모닝 베이브  
+새벽 6시가 될 때까지 멈출 수가 없어  
 
-  You're so good at being bad, you know  
-  유어 쏘 굿 앳 빙 배드, 유 노우  
-  너는 나쁜 사람이기를 너무 잘해, 너도 알다시피  
+Want you more than yesterday  
+원트 유 모어 댄 예스터데이  
+시간이 갈수록 널 더 원하게 돼  
 
-  So predictable  
-  쏘 프레딕터블  
-  너무 예상가능해  
+Used to judge myself now I don’t care cause  
+유즈드 투 저지 마이셀프 나우 아이 돈 케어 커즈  
+난 항상 내 스스로를 괴롭혔는데 이젠 그렇지 않아  
 
-  You're an animal  
-  유어 언 애니멀  
-  너는 동물이야  
+## [Bridge]
+Tell me we’re something  
+텔 미 위어 썸띵  
+우린 특별한 사이라고 말해줘  
 
-  I can't let you go  
-  아이 캔트 렛 유 고  
-  너를 보낼 수는 없어  
+Tell me we’re nothing  
+텔 미 위어 낫띵  
+우린 아무 사이도 아니라고 말해줘  
 
-  You're so good at being bad (Uh)  
-  유어 쏘 굿 앳 빙 배드 (어)  
-  너는 나쁜 사람이기를 너무 잘해, 너도 알다시피
+You’re driving me crazy  
+유어 드라이빙 미 크레이지  
+넌 날 미치게 해  
+
+Driving in London  
+드라이빙 인 런던  
+런던에서 드라이브 하는데  
+
+My minds in the back seat  
+마이 마인즈 인 더 백 시트  
+내 생각은 온통 뒷좌석에 가 있고  
+
+My hearts in the front and…  
+마이 하츠 인 더 프론트 앤드…  
+내 마음은 앞을 향해 있어 그리고…  
+
+Used to judge myself now I don’t care cause  
+유즈드 투 저지 마이셀프 나우 아이 돈 케어 커즈  
+난 항상 내 스스로를 괴롭혔는데 이젠 그렇지 않아  
+
+## [Chorus]
+Hey  
+헤이  
+있잖아  
+
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
+
+Everything you do just turns me on  
+에브리띵 유 두 저스트 턴즈 미 온  
+네가 하는 모든 행동들이 날 끌어당겨  
+
+I love you like that  
+아이 러브 유 라이크 댓  
+난 그런 널 사랑해  
+
+Body on my mind like all night long  
+바디 온 마이 마인드 라이크 올 나잇 롱  
+밤새도록 네 생각만 해  
+
+6 o’clock in the morning babe  
+식스 어클락 인 더 모닝 베이브  
+새벽 6시가 될 때까지 멈출 수가 없어  
+
+Want you more than yesterday  
+원트 유 모어 댄 예스터데이  
+시간이 갈수록 널 더 원하게 돼  
+
+Used to judge myself now I don’t care cause  
+유즈드 투 저지 마이셀프 나우 아이 돈 케어 커즈  
+난 항상 내 스스로를
 
   ---
+  
+  ### 오늘의 단어
 
-  # 오늘의 단어 (TOEIC 및 OPIc 수준별 분류)
+#### [Verse 1]
+- **Drunk**: 취한
+- **Rain**: 비
+- **Habits**: 습관들, 버릇들
+- **Baggage**: 짐
+- **Madness**: 미친 상태, 소용돌이
+- **Attractive**: 매력적인
+- **Happen**: 일어나다, 발생하다
+- **Kiss**: 키스하다
+- **Chest**: 가슴
+- **Left**: 남은, 남기다
+- **God**: 신, 감탄사로 사용
+- **Tear apart**: 찢어지다
 
-  ## TOEIC 300-400점 / OPIc Novice
-  - Another (또 다른)
-  - Friend (친구)
-  - Start (시작)
-  - End (끝)
-  - Know (알다)
-  - Well (잘)
-  - Side (옆)
-  - Play (놀다, 하다)
-  - Eyes (눈)
-  - Look (보다)
+#### [Chorus]
+- **Love**: 사랑하다
+- **Turn on**: 끌어당기다, 흥미를 일으키다
+- **Mind**: 마음, 생각
+- **Morning**: 아침
+- **Yesterday**: 어제
+- **Judge**: 판단하다
+- **Care**: 신경 쓰다
 
-  ## TOEIC 500-600점 / OPIc Intermediate
-  - Predictable (예상 가능한)
-  - Animal (동물)
-  - Desire (욕망)
-  - Favourite (가장 좋아하는)
-  - Liar (거짓말쟁이)
-  - Deny (부정하다)
-  - Behaviour (행동)
-  - Cool (쿨한, 멋진)
-  - Attack (공격하다)
-  - Dirty (더러운)
+#### [Verse 2]
+- **Awake**: 깨어있는
+- **Coffee**: 커피
+- **Champagne**: 샴페인
+- **Slowly**: 천천히
+- **Know**: 알다
 
-  ## TOEIC 700-800점 / OPIc Advanced
-  - Finally (마침내)
-  - Ever since (이후로 쭉)
-  - Corner (모퉁이, 구석)
-  - Over (끝난)
-  - True (진실된)
-  - Hide (숨기다)
-  - Just (그냥, 단지)
-  - Worst (최악의)
-  - Waiting (기다리는)
-  - Found (발견했다, 찾았다)
-
-  ### 수준 분석
-
-  **TOEIC 300-400점 / OPIc Novice**
-  - 가사 기준으로 간단한 단어들로 구성되어 있어 초급 수준의 이해도 필요
-
-  **TOEIC 500-600점 / OPIc Intermediate**
-  - 감정 표현과 상황 설명에 필요한 단어들로, 중급 수준의 이해도 필요
-
-  **TOEIC 700-800점 / OPIc Advanced**
-  - 문맥상 이해가 필요하고, 감정과 상황을 더 정교하게 표현할 수 있는 단어들로 구성되어 있어 고급 수준의 이해도 필요
-
-  ### 예시
-  **TOEIC 300-400점 / OPIc Novice**
-  - I don't wanna be another him, that shit is over.  
-    나는 또다른 너의 남자가 되고싶진 않아, 그런건 이제 끝이야.
-
-  **TOEIC 500-600점 / OPIc Intermediate**
-  - So predictable, you're an animal.  
-    너무 예상가능해, 너는 동물이야.
-
-  **TOEIC 700-800점 / OPIc Advanced**
-  - Ever since the start, I saw the end around the corner.  
-    시작부터 난 코앞에 다가온 끝을 봤어.
+#### [Bridge]
+- **Something**: 무언가, 특별한 것
+- **Nothing**: 아무것도 아닌 것
+- **Crazy**: 미친, 열광적인
+- **London**: 런던 (지명)
+- **Back seat**: 뒷좌석
+- **Front**: 앞쪽
+- **Heart**: 마음, 심장
 
 
 
   ''',
       
-      tags=["Christopher", "Bad", "영어 노래", "영어 가사", "영어 공부", "노래 학습"],
-      series="Christopher",
-      description="영어 노래 가사를 해석하고 발음을 익히며 영어를 학습해봅시다."
+      tags = ["Lauv", "Love U Like That", "팝송", "영어 노래", "가사 번역", "영어 공부", "음악 추천", "감성 노래"],
+      series = "Lauv",
+      description = "Lauv의 'Love U Like That' 곡을 통해 영어 가사를 해석하고 발음을 익히며, 영어 학습을 함께 해봅시다."
   )
 
   print(response)
+  
+main()

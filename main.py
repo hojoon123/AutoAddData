@@ -17,7 +17,9 @@ def main():
   system_prompts = gptData.system_prompts()
   posting_topics = gptData.posting_topics_by_country()
 
-  subject = '공항에서, 호텔에서,식당에서, 관광지에서 사용할 수 있는 표현'
+  subject = '''초보자를 위한 여행 준비 팁: 놓치기 쉬운 것들
+내용: 여행을 준비하면서 초보자들이 자주 놓치는 중요한 사항들에 대해 다룹니다. 예를 들어, 현지 문화 이해, 필수 체크리스트, 예산 관리 방법, 비상시 대처법 등을 상세히 설명합니다.
+이유: 여행 초보자들은 구체적인 정보에 목말라 있습니다. 이 포스팅은 그들의 불안을 해소해 줄 수 있어 매우 유용합니다.'''
   example = {
     'title': "여행 중 필수 표현과 상황별 대처 방법",
     'markdown': '''# 여행 중 필수 표현과 상황별 대처 방법
